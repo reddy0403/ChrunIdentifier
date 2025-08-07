@@ -1,0 +1,43 @@
+Churn – Customer Churn Prediction Project
+
+Churn is a machine learning project aimed at predicting **customer churn** for a telecom company using historical data. By analyzing customer behavior, the model helps identify which customers are likely to leave, enabling proactive retention strategies.
+
+## 📊 Dataset Used
+
+- **Source**: https://www.kaggle.com/datasets/blastchar/telco-customer-churn`
+- Contains customer demographics, services, account information, and churn status.
+
+## 🔧 Technologies & Libraries
+
+- Python
+- Pandas, NumPy
+- Matplotlib, Seaborn
+- Scikit-learn (sklearn)
+
+## 🧠 Models Used
+
+- Random Forest Classifier
+- Logistic Regression
+
+## 🔍 Workflow Overview
+
+1. **Data Loading** from Excel file
+2. **Data Cleaning** (dropping unnecessary columns, handling nulls)
+3. **Label Encoding** of categorical features
+4. **Train-Test Split**
+5. **Model Training**
+6. **Prediction & Evaluation** using:
+   - Confusion Matrix
+   - Classification Report
+   - Accuracy Score
+
+## 📈 Performance Metrics
+
+- Precision, Recall, F1-Score for both models
+- Accuracy comparison between Random Forest and Logistic Regression
+
+## 🖥️ How to Run
+
+1. Install dependencies:
+```bash
+pip install pandas numpy matplotlib seaborn scikit-learn openpyxl
